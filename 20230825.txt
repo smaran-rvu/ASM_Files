@@ -1,0 +1,38 @@
+Scrum methodology:
+
+Multiple Sprints of:
+	1. Build - Git actions
+	2. UT - Pyunit
+	3. IT - pylint
+	4. ST - RPA
+
+Each sprint covers a subset of requirements
+
+Continuos Built
+Continuos Integation
+Continuos Testing 
+
+Continuos delivery - GitHub
+Contunuos deployment - Docker - VM + OS + Code + Libraries
+
+JENKINS/GITACTIONS
+• Orchestrator b/w thesse tools
+	- Maven - Build (Compressed Zipped Compiled Code)
+	- Pylint - Static Code analysis 
+	- Pyunit - UT/IT
+	- Selenium/RPA - ST
+	- Git - VCS
+	- Docker - Deployment
+	- GitHub - Delivery
+	- Chef/Puppet/Ansible - Software Update tool
+	- Anaconda - IDE - Coding and compilation
+	- Nagios - Ensures all DevOps tools o
+
+KUBERNETES/DOCKERSWAN
+• Orchestrator of Dockers
+
+DevOps Pipeline - Coding → Build → Testing → Deployment
+
+Mocroservice - Chip for software
+
+Build File -> SCA -> UT -> ST -> Build Docker image -> Push Docker Image from GitHub to DockerHub
